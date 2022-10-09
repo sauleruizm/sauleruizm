@@ -18,9 +18,9 @@ ing. en Sistemas Informáticos
 
 ## Estadísticas 🧐
 ![](https://github-readme-stats.vercel.app/api?username=sauleruizm)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=sauleruizm&layout=compact)
 -->
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sauleruizm&layout=compact)
+
 ## ¡Encuentrame en! 👀
 <img src="https://img.shields.io/badge/sauleruizm%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/>
 
