@@ -13,13 +13,14 @@ ing. en Sistemas Informáticos
 <!--
 ## Otra Educación 🤓
 2020: ![](https://img.shields.io/badge/Coursera%20--%20Universidad%20Austral-Dise%C3%B1o%20de%20p%C3%A1gina%20web%20%20con%20Bootstrap%204-blue)
--->
+
 
 
 ## Estadísticas 🧐
-##![](https://github-readme-stats.vercel.app/api?username=sauleruizm)
+![](https://github-readme-stats.vercel.app/api?username=sauleruizm)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=sauleruizm&layout=compact)
+-->
 ## ¡Encuentrame en! 👀
 <img src="https://img.shields.io/badge/sauleruizm%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/>
 
