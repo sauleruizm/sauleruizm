@@ -1,7 +1,7 @@
 
 # ¡Hola, bienvenido 👋🏻
 
-¡Espero que disfrutes de la programación tanto como yo!
+¡Espero que disfrutes de la programación tanto como a mi!
 
 Lenguajes y Tecnologías 👨🏻‍💻
 
