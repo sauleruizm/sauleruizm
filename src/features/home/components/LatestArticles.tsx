@@ -4,7 +4,7 @@ import type { ArticleCardProps } from '../../../components/ArticleCard/ArticleCa
 import styles from './LatestArticles.module.css';
 
 interface LatestArticlesProps {
-  articles: ArticleCardProps[];
+  articles: Array<ArticleCardProps & { id: string }>;
 }
 
 export const LatestArticles = ({ articles }: LatestArticlesProps) => {
