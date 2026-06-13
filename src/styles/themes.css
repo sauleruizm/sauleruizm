@@ -20,6 +20,7 @@
   --text-primary: #1a1a2e;
   --text-secondary: #6b7280;
   --text-muted: #9ca3af;
+  --text-inverse: #ffffff;
   --color-accent: #7c3aed;
   --color-accent-hover: #6d28d9;
   --color-accent-light: rgba(124, 58, 237, 0.08);
@@ -45,6 +46,7 @@
   --text-primary: #e4e4ed;
   --text-secondary: #9ca3af;
   --text-muted: #6b7280;
+  --text-inverse: #ffffff;
   --color-accent: #a78bfa;
   --color-accent-hover: #c4b5fd;
   --color-accent-light: rgba(167, 139, 250, 0.12);
