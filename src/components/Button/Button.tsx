@@ -1,4 +1,4 @@
-// src/components/Button.tsx
+// src/components/Button/Button.tsx
 import type { ButtonHTMLAttributes } from 'react';
 import styles from './Button.module.css';
 
