@@ -6,7 +6,6 @@
 Lenguajes y Tecnologías 👨🏻‍💻
 
 
-<!--
 ## Otra Educación 🤓
 2020: ![](https://img.shields.io/badge/Coursera%20--%20Universidad%20Austral-Dise%C3%B1o%20de%20p%C3%A1gina%20web%20%20con%20Bootstrap%204-blue)
 
@@ -19,7 +18,6 @@ Lenguajes y Tecnologías 👨🏻‍💻
 
 ## ¡Encuentrame en! 👀
 <img src="https://img.shields.io/badge/sauleruizm%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/>
--->
 <!-- 
 **sauleruizm/sauleruizm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -33,4 +31,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ... -->
-
