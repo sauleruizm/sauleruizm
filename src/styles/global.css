@@ -1,0 +1,52 @@
+/* src/styles/global.css — Reset & base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background: none;
+}
+
+input {
+  font: inherit;
+}

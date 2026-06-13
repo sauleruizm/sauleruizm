@@ -1,0 +1,26 @@
+/* src/features/home/components/LatestArticles.module.css */
+.section {
+  margin-bottom: var(--space-2xl);
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-sm);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

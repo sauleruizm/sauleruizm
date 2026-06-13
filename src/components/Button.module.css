@@ -1,0 +1,22 @@
+/* src/components/Button/Button.module.css */
+.btn {
+  font-family: var(--font-sans);
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--color-accent);
+  color: var(--bg-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Modifier example */
+.secondary {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--text-primary);
+}

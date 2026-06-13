@@ -1,0 +1,8 @@
+/* src/features/home/components/FeaturedArticle.module.css */
+.section {
+  margin-bottom: var(--space-2xl);
+}
+
+.articleWrap {
+  max-width: 100%;
+}
