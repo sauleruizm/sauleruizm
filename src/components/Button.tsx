@@ -1,7 +1,8 @@
-// src/components/Button/Button.tsx
+// src/components/Button.tsx
+import type { ButtonHTMLAttributes } from 'react';
 import styles from './Button.module.css';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary';
 }
 
