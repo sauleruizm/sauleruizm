@@ -13,7 +13,7 @@ export const LatestArticles = ({ articles }: LatestArticlesProps) => {
       <h2 className={styles.heading}>Latest Articles</h2>
       <div className={styles.grid}>
         {articles.map((article) => (
-          <ArticleCard key={article.title} {...article} />
+          <ArticleCard key={article.id} {...article} />
         ))}
       </div>
     </section>

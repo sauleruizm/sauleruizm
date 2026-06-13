@@ -2,6 +2,7 @@
 import styles from './ArticleCard.module.css';
 
 export interface ArticleCardProps {
+  id: string;
   title: string;
   date: string;
   author: string;
