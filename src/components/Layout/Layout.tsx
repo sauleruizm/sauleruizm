@@ -1,12 +1,9 @@
-/* src/components/Layout/Layout.tsx */
-import { useState } from 'react';
 import type { ReactNode } from 'react';
+import { usePreferences } from '../../contexts/PreferencesContext';
 import { useTheme } from '../../hooks/useTheme';
 import styles from './Layout.module.css';
 
-type Lang = 'ES' | 'EN';
-
-const WELCOME: Record<Lang, string> = {
+const WELCOME: Record<'ES' | 'EN', string> = {
   ES: 'Bienvenido',
   EN: 'Welcome',
 };
@@ -17,7 +14,7 @@ interface LayoutProps {
 
 export const Layout = ({ children }: LayoutProps) => {
   const { theme, toggleTheme } = useTheme();
-  const [lang, setLang] = useState<Lang>('ES');
+  const { lang, setLang } = usePreferences();
 
   return (
     <div className={styles.layout}>
@@ -35,7 +32,10 @@ export const Layout = ({ children }: LayoutProps) => {
           <select
             className={styles.langSelect}
             value={lang}
-            onChange={(e) => setLang(e.target.value as Lang)}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (value === 'ES' || value === 'EN') setLang(value);
+            }}
             aria-label="Select language"
           >
             <option value="ES">ES</option>

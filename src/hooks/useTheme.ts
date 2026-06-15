@@ -1,14 +1,6 @@
-// src/hooks/useTheme.ts
-import { useEffect, useState } from 'react';
+import { usePreferences } from '../contexts/PreferencesContext';
 
 export const useTheme = () => {
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
-
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-  }, [theme]);
-
-  const toggleTheme = () => setTheme(prev => prev === 'light' ? 'dark' : 'light');
-
+  const { theme, toggleTheme } = usePreferences();
   return { theme, toggleTheme };
 };

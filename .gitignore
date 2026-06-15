@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project-specific
+.github
+IA-instructions.md
+ia-instructions.zip
