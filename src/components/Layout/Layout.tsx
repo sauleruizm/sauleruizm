@@ -32,7 +32,10 @@ export const Layout = ({ children }: LayoutProps) => {
           <select
             className={styles.langSelect}
             value={lang}
-            onChange={(e) => setLang(e.target.value as 'ES' | 'EN')}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (value === 'ES' || value === 'EN') setLang(value);
+            }}
             aria-label="Select language"
           >
             <option value="ES">ES</option>

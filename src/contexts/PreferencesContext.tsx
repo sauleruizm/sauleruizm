@@ -41,11 +41,19 @@ export const PreferencesProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem(STORAGE_KEY_THEME, theme);
+    try {
+      localStorage.setItem(STORAGE_KEY_THEME, theme);
+    } catch {
+      /* localStorage unavailable */
+    }
   }, [theme]);
 
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY_LANG, lang);
+    try {
+      localStorage.setItem(STORAGE_KEY_LANG, lang);
+    } catch {
+      /* localStorage unavailable */
+    }
   }, [lang]);
 
   const toggleTheme = () => setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
